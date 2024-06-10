@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.vegetable-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.vegetable {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    overflow: hidden;
+    max-width: 200px;
+    text-align: center;
+}
+
+.vegetable img {
+    max-width: 100%;
+    height: auto;
+}
+
+.vegetable h2 {
+    color: #333;
+    font-size: 1.2em;
+    margin: 0.5em 0;
+}
+
+.vegetable p {
+    padding: 0 10px 10px;
+    color: #666;
+    font-size: 0.9em;
+}
